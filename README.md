@@ -7,13 +7,15 @@ Link to OmniAdmin: https://github.com/exela/secret-sauce/releases/tag/v0.1.0-bar
 
 ---
 ## Usage: 
-1. Update the 'jar_location' variable for where the omniadmin jar is located in your environment. 
-2. Place the 'omniadmin-spinner.sh' file in the 'liferay-docker/spinner/env-{env}/' dir. 
-3. Run the command in terminal: ./omniadmin-spinner.sh
+1. Clone repo to drive: git clone https://github.com/dianaseung/secret-sauce-install-spinner.git
+2. Run `./omniadmin-spinner.sh init` to download jar, and setup jar location. 
+3. Add alias to bashrc: alias omni='cp "path/to/omniadmin-spinner.sh" . && ./omniadmin-spinner.sh'
+4. Setup a Spinner env (i.e. `./build.sh <lxc-environment>`) and then run `omni`
 
 (*Tip: If you run into permission denied errors, don't forget to run 'chmod +x omniadmin-spinner.sh'*)
 
 ---
 
 ## Changelogs
+- 8/15/24: Added `init` option to download omniadmin jar and set jar location
 - 6/25/24: Initial Commit
