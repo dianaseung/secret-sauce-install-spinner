@@ -7,7 +7,7 @@ Link to OmniAdmin: https://github.com/exela/secret-sauce/releases/tag/v0.1.0-bar
 
 ---
 ## Usage: 
-1. Clone repo to drive: git clone https://github.com/dianaseung/secret-sauce-install-spinner.git
+1. Clone repo to drive: `git clone https://github.com/dianaseung/secret-sauce-install-spinner.git`
 2. Run `./omniadmin-spinner.sh init` to download jar, and setup jar location. 
 3. Add alias to bashrc: alias omni='cp "path/to/omniadmin-spinner.sh" . && ./omniadmin-spinner.sh'
 4. Setup a Spinner env (i.e. `./build.sh <lxc-environment>`) and then run `omni`
